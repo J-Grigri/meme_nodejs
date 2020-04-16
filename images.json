@@ -1,0 +1,46 @@
+[
+    {
+        "fieldname": "fileUpload",
+        "originalname": "27018936777_6f443f16c7_o.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "/Users/jurgis/webprojects/csweek7/meme_nodejs/meme_nodejs/public/uploads",
+        "filename": "158705314858727018936777_6f443f16c7_o.jpg",
+        "path": "/Users/jurgis/webprojects/csweek7/meme_nodejs/meme_nodejs/public/uploads/158705314858727018936777_6f443f16c7_o.jpg",
+        "size": 524783,
+        "id": 1
+    },
+    {
+        "fieldname": "fileUpload",
+        "originalname": "430.png",
+        "encoding": "7bit",
+        "mimetype": "image/png",
+        "destination": "/Users/jurgis/webprojects/csweek7/meme_nodejs/meme_nodejs/public/uploads",
+        "filename": "1587053166856430.png",
+        "path": "/Users/jurgis/webprojects/csweek7/meme_nodejs/meme_nodejs/public/uploads/1587053166856430.png",
+        "size": 193202,
+        "id": 2
+    },
+    {
+        "fieldname": "fileUpload",
+        "originalname": "main-qimg-6b516de6e8e08e0a134d528e496c5300.jpeg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "/Users/jurgis/webprojects/csweek7/meme_nodejs/meme_nodejs/public/uploads",
+        "filename": "1587053191629main-qimg-6b516de6e8e08e0a134d528e496c5300.jpeg",
+        "path": "/Users/jurgis/webprojects/csweek7/meme_nodejs/meme_nodejs/public/uploads/1587053191629main-qimg-6b516de6e8e08e0a134d528e496c5300.jpeg",
+        "size": 135276,
+        "id": 3
+    },
+    {
+        "fieldname": "fileUpload",
+        "originalname": "Chimpanzee-Laughing-Funny-Animal-Picture.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "/Users/jurgis/webprojects/csweek7/meme_nodejs/meme_nodejs/public/uploads",
+        "filename": "1587053202326Chimpanzee-Laughing-Funny-Animal-Picture.jpg",
+        "path": "/Users/jurgis/webprojects/csweek7/meme_nodejs/meme_nodejs/public/uploads/1587053202326Chimpanzee-Laughing-Funny-Animal-Picture.jpg",
+        "size": 56874,
+        "id": 4
+    }
+]

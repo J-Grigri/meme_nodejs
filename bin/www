@@ -7,6 +7,7 @@
 var app = require('../app');
 var debug = require('debug')('meme-nodejs:server');
 var http = require('http');
+require('dotenv').config
 
 //you mean here? yeah cz my have thoes code at the app.js . No reason, I tought it should be like this
 // hangon 

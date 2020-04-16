@@ -1,7 +1,17 @@
 <h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
 
+{{!-- if there is error it will be show --}}
+{{#if error}}
+<h1>{{error}}</h1>
+{{/if}}
+
+<h3>Upload photo to create a meme</h3>
+
+<div style="display:flex; justify-content:center;">
 <form action="/upload" method="post" enctype="multipart/form-data">
-    <input type="file" name="avatar" />
-    <button type="submit">Upload</button>
+{{!-- accept is a front end guard for the right type of files --}}
+    <input class="form-control" type="file" name="fileUpload" accept="image/jpeg, image/png, image/jpg, image/gif"/>
+    <button class="btn btn-outline-light" type="submit">Upload</button>
 </form>
+</div>
+
