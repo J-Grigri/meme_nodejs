@@ -3,31 +3,45 @@ body {
   font: 18px "Comic Sans MS", cursive, sans-serif;
   width: 100% ;
   height: 100%; 
-  color:rgba(73, 251, 254, 0.838);
-  background-color:rgb(82, 177, 177);
-  /* background:#fff url(https://i.pinimg.com/originals/16/08/6a/16086aa32013e958b00ddb4c722dffcd.jpg) center center no-repeat;
+  
+  /* background-color:rgb(82, 177, 177); */
+  background: url("../images/brown.jpg") center center no-repeat;
   background-attachment: fixed;
-  background-size:100% 100%; */
+  background-size:100% 100%;
   text-align: center;
-
+}
+form{
+  border:2px solid #5B415C;
+  background-color: #FFD03C;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width:16rem;
+  margin-top: 8rem;
 }
 
 input {
   color: tomato;
 }
-a {
-  color: #00B7FF;
+button {
+  margin:1rem;
+  background-color: #5B415C;
+  border:none;
+  padding:0;
+  
 }
+.likeBtn{
+border:0.2rem solid #5B415C;
+}
+
 h3 {
   font-size: 1rem;
-  color:rgba(172, 255, 47, 0.838);
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 img {
-  margin:0.3rem;
-  border:2px solid grey;
+  margin:0.2rem;
 }
 #photoContainer{
   display:flex;
@@ -37,4 +51,22 @@ img {
   display:flex; 
   justify-content:center;
 }
+#myNav {
+  display:flex;
+  justify-content:center;
+  flex-direction: row;
+  width:100%
+}
+a{
+  color:none;
+}
+.nav-link {
+  color:#FD4169
+  display:flex;
+  justify-content: center;
+}
+.container{
+  height: 100%;
+}
+
 

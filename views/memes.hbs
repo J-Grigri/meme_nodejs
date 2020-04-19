@@ -7,7 +7,9 @@
 
 {{!-- forloop for each image --}}
 {{#each images}}
-<img src='/memes/{{{filename}}}' alt="{{{filename}}}" />
+
+<img class="likeBtn" src='/memes/{{{filename}}}' alt="{{{filename}}}" />
+
 {{/each}}
 
 {{/if}}
