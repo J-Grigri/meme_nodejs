@@ -1,16 +1,14 @@
 const multer = require('multer')
 const path = require('path')//current full path
-
 //specify where the files will be saved
 const pathToUpload = path.join(__dirname, "../public/uploads")
-
 //function structure comes from multer template
 const storage = multer.diskStorage({
     //where to save the files
     destination: function (req, file, cb) {
-        //first argument is error
-        cb(null, pathToUpload) // if there is no 1st arg, multer will use 2nd as path to folder
+        cb(null, pathToUpload) // if there is no 1st arg(error), multer will use 2nd as path to folder
     },
+    
     //Change the file when it is uploaded
     filename: function (req, file, cb) {
         const allows = ["image/jpeg", "image/png", "image/jpg", "image/gif"]

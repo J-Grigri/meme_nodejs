@@ -1,20 +1,17 @@
 body {
   padding: 20px;
   font: 18px "Comic Sans MS", cursive, sans-serif;
-  width: 100%; 
+  width: 100% ;
   height: 100%; 
-  background-color:rgb(78, 121, 121);
+  color:rgba(73, 251, 254, 0.838);
+  background-color:rgb(82, 177, 177);
   /* background:#fff url(https://i.pinimg.com/originals/16/08/6a/16086aa32013e958b00ddb4c722dffcd.jpg) center center no-repeat;
   background-attachment: fixed;
   background-size:100% 100%; */
   text-align: center;
 
 }
-form {
-  width:25rem;
-  display:flex;
-  flex-direction: row;
-}
+
 input {
   color: tomato;
 }
@@ -31,5 +28,13 @@ h3 {
 img {
   margin:0.3rem;
   border:2px solid grey;
+}
+#photoContainer{
+  display:flex;
+  /* justify-content: space-around; */
+}
+#upload {
+  display:flex; 
+  justify-content:center;
 }
 

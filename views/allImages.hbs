@@ -1,13 +1,38 @@
-
 {{#if error}}
 <h1>{{error}}</h1>
 {{/if}}
 
 {{#if images}}
-
 {{!-- forloop for each image --}}
 {{#each images}}
-<img src='/uploads/{{{filename}}}' alt="{{{filename}}}"/>
-{{/each}}
+<button type="button" data-toggle="modal" data-target="#modal{{{ id }}}">
+    <img src='/uploads/{{{filename}}}' alt="{{{filename}}}" />
+</button>
 
+<!-- Modal -->
+<div class="modal fade" id="modal{{{id}}}" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="ModalLabel"></h5>Add text to the image</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img src='/uploads/{{{filename}}}' alt="{{{filename}}}" />
+                <form action="/create" method="POST">
+                    <input type="text" value="{{{id}}}" name="id" hidden />
+                    <input type="text" placeholder="top" name="top" />
+                    <input type="text" placeholder="bottom" name="bot" />
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Save changes</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{{/each}}
 {{/if}}
